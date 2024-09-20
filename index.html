@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Area Task</title>
+    <style>
+      .grid{
+         display: grid;
+         width: 50vw;
+         padding: px;
+         gap: 5px;
+         margin-left: auto;
+         margin-right: auto;
+         grid-template-areas:
+         'area1 area2 area3'
+         'area1 area5 area6'
+         'area4 area5 area6'
+         'area4 area5 area7'
+         ;
+      }
+      .item1{
+         grid-area:area1 ;
+      }
+      .item2{
+         grid-area: area2;
+      }
+      .item3{
+         grid-area: area3;
+      }
+      .item4{
+         grid-area: area4;
+      }
+      .item5{
+         grid-area: area5;
+      }
+      .item6{
+         grid-area: area6;
+      }
+      .item7{
+         grid-area: area7;
+      }
+      body{
+        background-color: whitesmoke;
+      }
+      .c1{
+        border: 3px solid red;
+        padding: 20px;
+        margin: 50px;
+        background-color: orange;
+      }
+      marquee{
+        font-weight: bold;
+        font-size: 30px;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body><marquee >Grid Template Area</marquee>
+    
+    <div class="c1">
+    <div class="grid">
+      <div class="item item1">
+        <img src="https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?cs=srgb&dl=pexels-craigmdennis-205421.jpg&fm=jpg" alt="laptap" width="95%" height="95%" />
+      </div>
+      <div class="item item2">
+        <img src="https://m.media-amazon.com/images/I/71pHnBCAqmL._AC_UF1000,1000_QL80_.jpg"width="95%" height="95%" />
+      </div>
+      <div class="item item3">
+        <img src="https://i.pinimg.com/736x/b1/ad/e7/b1ade7d0e476181b8c08d164522d7ac8.jpg" width="95%" height="95%" />
+      </div>
+      <div class="item item4">
+        <img src="https://img.freepik.com/free-vector/vector-computer-monitor-icon_53876-140.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726704000&semt=ais_hybrid" width="95%" height="95%" />
+      </div>
+      <div class="item item5">
+        <img src="https://cdn.pixabay.com/photo/2015/03/21/19/27/pc-684125_640.jpg" width="95%" height="95%" />
+      </div>
+      <div class="item item6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhOt8yVPy6GGZ4tjCXHpImPPqpNoEwJGeE2Q&s" width="95%" height="95%" alt="" />
+      </div>
+      <div class="item item7">
+        <img src="https://m.media-amazon.com/images/I/61ERDR3tATL.jpg" width="95%" height="95%" />
+      </div>
+    </div>
+</div>
+  </body>
+</html>
